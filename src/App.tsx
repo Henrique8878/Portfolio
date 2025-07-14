@@ -37,7 +37,7 @@ import { Dialog, DialogTrigger } from './components/ui/dialog'
 
 export function App() {
   return (
-    <main className="grid grid-rows-[4] w-full h-screen">
+    <main className="grid grid-rows-4 w-full h-screen">
       <div style={{ backgroundImage: `url(${Backgorund})` }} className="flex items-center justify-center bg-cover py-24">
 
         <section className="flex flex-col w-[60rem] items-center justify-center gap-4">
