@@ -37,7 +37,7 @@ import { Dialog, DialogTrigger } from './components/ui/dialog'
 
 export function App() {
   return (
-    <main className="grid grid-rows-4 w-full h-screen">
+    <main className="flex flex-col w-full">
       <div style={{ backgroundImage: `url(${Backgorund})` }} className="flex items-center justify-center bg-cover py-24">
 
         <section className="flex flex-col w-[60rem] items-center justify-center gap-4">
@@ -74,7 +74,7 @@ export function App() {
               <span>CSS</span>
             </section>
             <section className="flex items-center justify-center gap-2 bg-[#292c34] text-[#878b94]
-            w-[8] h-[2.5rem] p-[1rem] rounded-3xl"
+            w-[8rem] h-[2.5rem] p-[1rem] rounded-3xl"
             ><AiOutlineJavaScript color="#EFD92B" />
               <span>JavaScript</span>
             </section>
@@ -104,7 +104,7 @@ export function App() {
               <span>Node</span>
             </section>
             <section className="flex items-center justify-center gap-2 bg-[#292c34] text-[#878b94]
-            w-[8] h-[2.5rem] p-[1rem] rounded-3xl"
+            w-[8rem] h-[2.5rem] p-[1rem] rounded-3xl"
             ><SiFastify color="black" />
               <span>Fastify</span>
             </section>
